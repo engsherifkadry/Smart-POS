@@ -1,70 +1,75 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>نظام POS المتطور | حلول ذكية لإدارة مبيعاتك</title>
-    <meta name="description" content="نظام نقاط بيع متكامل لإدارة المخازن، العملاء، والتقارير المالية بكل سهولة واحترافية.">
-    
+    <meta name="description"
+        content="نظام نقاط بيع متكامل لإدارة المخازن، العملاء، والتقارير المالية بكل سهولة واحترافية.">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
-    
+
     <!-- Animation -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
+
 <body>
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container">
             <a class="navbar-brand fw-bold" href="#">
-                <i class="bi bi-shop me-2 text-primary"></i>
-                نظام <span class="text-primary">POS</span> لإدارة نقاط البيع والمخزون
+                <i class="bi bi-cpu-fill me-2 text-primary"></i>
+                نظام <span class="text-gradient">POS</span> المحترف
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="bi bi-list fs-1"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#features">المميزات</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#screens">شاشات البرنامج</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#features">المميزات</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#screens">شاشات البرنامج</a></li>
+                    <li class="nav-item"><a class="nav-link text-uppercase" href="#tech">التفاصيل التقنية</a></li>
                 </ul>
-                <a href="https://wa.me/201019943147?text=أريد%20تجربة%20نظام%20نقاط%20البيع" class="btn btn-primary rounded-pill px-4 ms-lg-3">
+                <a href="https://wa.me/201019943147?text=أريد%20تجربة%20نظام%20نقاط%20البيع"
+                    class="btn btn-primary rounded-pill px-4 ms-lg-4">
                     <i class="bi bi-whatsapp me-2"></i>
-                    اطلب تجربتك الآن
+                    اطلب عرضاً تجريبياً
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-section d-flex align-items-center">
+    <header class="hero-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 animate__animated animate__fadeInRight">
-                    <h1 class="display-4 fw-bold mb-4">أرتقِ بتجارتك إلى <span class="text-gradient">مستوى آخر</span></h1>
-                    <p class="lead mb-5 text-muted">
-                        نظام نقاط بيع سحابي متطور صُمم خصيصاً ليناسب احتياجاتك. سرعة في الأداء، دقة في الحسابات، وسهولة في الإدارة.
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1 class="display-3 fw-bold mb-4">أدر تجارتك بذكاء <span class="text-gradient">واحترافية</span>
+                    </h1>
+                    <p class="lead mb-5 text-muted fs-4">
+                        نظام نقاط بيع متكامل مصمم ليكون قلب منشأتك النابض. دقة، سرعة، وأمان في كل عملية مبيعات ومخازن.
                     </p>
-                    <div class="d-flex gap-3">
-                        <a href="#screens" class="btn btn-lg btn-primary rounded-pill px-5">شاهد البرنامج</a>
-                        <a href="#features" class="btn btn-lg btn-outline-dark rounded-pill px-5">المزيد</a>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#screens" class="btn btn-lg btn-primary rounded-pill px-5">استعرض الشاشات</a>
+                        <a href="#features" class="btn btn-lg btn-outline-primary rounded-pill px-5">اكتشف المزيد</a>
                     </div>
                 </div>
-                <div class="col-lg-6 mt-5 mt-lg-0 animate__animated animate__fadeInLeft">
+                <div class="col-lg-6">
                     <div class="hero-img-container">
-                        <img src="نقطة البيع.JPG" alt="نقطة البيع" class="img-fluid rounded-4 shadow-lg main-hero-img">
-                        <div class="floating-badge shadow-sm">
-                            <i class="bi bi-lightning-charge-fill text-warning"></i>
-                            أداء لحظي فائق
+                        <img src="نقطة البيع.JPG" alt="نقطة البيع" class="img-fluid main-hero-img">
+                        <div class="floating-badge">
+                            <i class="bi bi-shield-check text-primary fs-3"></i>
+                            أمان ومعالجة فورية
                         </div>
                     </div>
                 </div>
@@ -73,38 +78,54 @@
     </header>
 
     <!-- Features Section -->
-    <section id="features" class="py-5 bg-light">
+    <section id="features" class="py-5">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h2 class="fw-bold">لماذا تختار <span class="text-primary">نظامنا؟</span></h2>
-                <div class="title-underline mx-auto"></div>
+                <h6 class="text-primary fw-bold text-uppercase ls-wide">لماذا نحن؟</h6>
+                <h2 class="section-title">مميزات <span class="text-gradient">النظام الكبرى</span></h2>
+                <div class="title-underline"></div>
             </div>
             <div class="row g-4">
                 <div class="col-md-4">
-                    <div class="feature-card p-4 rounded-4 bg-white shadow-sm h-100 text-center">
-                        <div class="icon-box mb-3 mx-auto">
-                            <i class="bi bi-speedometer2"></i>
+                    <div class="feature-card">
+                        <div class="icon-box">
+                            <i class="bi bi-cart-check-fill"></i>
                         </div>
-                        <h4 class="fw-bold">سرعة في الأداء</h4>
-                        <p class="text-muted">نقطة بيع سريعة تدعم الباركود والبحث الذكي لتنفيذ العمليات في ثوانٍ.</p>
+                        <h4 class="fw-bold mb-3">إدارة السلة والبيع</h4>
+                        <ul class="list-unstyled text-muted">
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> بحث ذكي بالاسم أو الباركود
+                            </li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> تصنيفات ملونة للوصول السريع
+                            </li>
+                            <li><i class="bi bi-check-circle-fill text-primary me-2"></i> تعدد طرق الدفع (نقدي/آجل)</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="feature-card p-4 rounded-4 bg-white shadow-sm h-100 text-center">
-                        <div class="icon-box mb-3 mx-auto secondary">
-                            <i class="bi bi-printer"></i>
+                    <div class="feature-card">
+                        <div class="icon-box" style="background: rgba(124, 58, 237, 0.1); color: var(--secondary);">
+                            <i class="bi bi-clock-history"></i>
                         </div>
-                        <h4 class="fw-bold">طباعة احترافية</h4>
-                        <p class="text-muted">دعم للإيصالات الحرارية (Thermal) وورق A4 بتصاميم </p>
+                        <h4 class="fw-bold mb-3">إدارة الورديات</h4>
+                        <ul class="list-unstyled text-muted">
+                            <li><i class="bi bi-check-circle-fill text-secondary me-2"></i> تسجيل الرصيد الافتتاحي</li>
+                            <li><i class="bi bi-check-circle-fill text-secondary me-2"></i> تقرير شامل عند الإغلاق</li>
+                            <li><i class="bi bi-check-circle-fill text-secondary me-2"></i> أتمتة تقارير PDF للسيرفر
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="feature-card p-4 rounded-4 bg-white shadow-sm h-100 text-center">
-                        <div class="icon-box mb-3 mx-auto accent">
-                            <i class="bi bi-graph-up-arrow"></i>
+                    <div class="feature-card">
+                        <div class="icon-box" style="background: rgba(245, 158, 11, 0.1); color: var(--accent);">
+                            <i class="bi bi-box-seam"></i>
                         </div>
-                        <h4 class="fw-bold">تقارير ذكية</h4>
-                        <p class="text-muted">متابعة دقيقة للمبيعات، المخزون، وكشوف حسابات العملاء بملفات PDF.</p>
+                        <h4 class="fw-bold mb-3">المخازن والأصناف</h4>
+                        <ul class="list-unstyled text-muted">
+                            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> تعدد الوحدات (قطعة/صندوق)</li>
+                            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> تتبع لحظي في جميع الفروع</li>
+                            <li><i class="bi bi-check-circle-fill text-warning me-2"></i> شاشة تسوية لضبط الكميات</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -112,116 +133,120 @@
     </section>
 
     <!-- Screens Gallery -->
-    <section id="screens" class="py-5">
+    <section id="screens" class="py-5 bg-white">
         <div class="container py-5">
             <div class="text-center mb-5">
-                <h2 class="fw-bold">استعرض <span class="text-primary">إمكانيات البرنامج</span></h2>
-                <p class="text-muted">لقطات حية من داخل النظام توضح سهولة الواجهة وقوتها</p>
-                <div class="title-underline mx-auto"></div>
+                <h6 class="text-primary fw-bold text-uppercase">المعرض</h6>
+                <h2 class="section-title">استكشف <span class="text-gradient">واجهات البرنامج</span></h2>
+                <div class="title-underline"></div>
             </div>
-            
-            <div class="row g-4 gallery-grid">
-                <!-- Gallery Item -->
-                <div class="col-lg-4 col-md-6 gallery-item">
-                    <div class="screen-card rounded-4 overflow-hidden shadow-sm" onclick="expandImg(this)">
-                        <img src="اللوحة الرئسية.JPG" alt="اللوحة الرئيسية" class="img-fluid">
-                        <div class="overlay">
-                            <i class="bi bi-zoom-in text-white display-4"></i>
-                            <span class="text-white mt-2">نظرة عامة</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Gallery Item -->
-                <div class="col-lg-4 col-md-6 gallery-item">
-                    <div class="screen-card rounded-4 overflow-hidden shadow-sm" onclick="expandImg(this)">
-                        <img src="نقطة البيع.JPG" alt="نقطة البيع" class="img-fluid">
-                        <div class="overlay">
-                            <i class="bi bi-zoom-in text-white display-4"></i>
-                            <span class="text-white mt-2">شاشة الكاشير</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Gallery Item -->
-                <div class="col-lg-4 col-md-6 gallery-item">
-                    <div class="screen-card rounded-4 overflow-hidden shadow-sm" onclick="expandImg(this)">
-                        <img src="الاصناف.JPG" alt="إدارة الأصناف" class="img-fluid">
-                        <div class="overlay">
-                            <i class="bi bi-zoom-in text-white display-4"></i>
-                            <span class="text-white mt-2">إدارة المنتجات</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Gallery Item -->
-                <div class="col-lg-4 col-md-6 gallery-item">
-                    <div class="screen-card rounded-4 overflow-hidden shadow-sm" onclick="expandImg(this)">
-                        <img src="لوحة التحكم.JPG" alt="لوحة التحكم" class="img-fluid">
-                        <div class="overlay">
-                            <i class="bi bi-zoom-in text-white display-4"></i>
-                            <span class="text-white mt-2">الإدارة المتقدمة</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Gallery Item -->
-                <div class="col-lg-4 col-md-6 gallery-item">
-                    <div class="screen-card rounded-4 overflow-hidden shadow-sm" onclick="expandImg(this)">
-                        <img src="حالة المخزون.JPG" alt="حالة المخزون" class="img-fluid">
-                        <div class="overlay">
-                            <i class="bi bi-zoom-in text-white display-4"></i>
-                            <span class="text-white mt-2">متابعة المخزون</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Gallery Item -->
-                <div class="col-lg-4 col-md-6 gallery-item">
-                    <div class="screen-card rounded-4 overflow-hidden shadow-sm" onclick="expandImg(this)">
-                        <img src="الادوار والصلاحيات.JPG" alt="الصلاحيات" class="img-fluid">
-                        <div class="overlay">
-                            <i class="bi bi-zoom-in text-white display-4"></i>
-                            <span class="text-white mt-2">نظام الصلاحيات</span>
-                        </div>
-                    </div>
-                </div>
+
+            <div id="galleryGrid" class="row g-4 overflow-hidden">
+                <!-- Gallery items will be injected by script.js -->
             </div>
-            
+
             <div class="text-center mt-5">
-                <button class="btn btn-outline-primary btn-lg rounded-pill px-4" id="loadMore">عرض المزيد من الشاشات</button>
+                <button class="btn btn-primary btn-lg rounded-pill px-5" id="loadMore">عرض كافة الشاشات</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Specs / Manual Info -->
+    <section id="tech" class="py-5">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="fw-bold mb-4">تقارير ذكية <span class="text-gradient">وإدارة دقيقة</span></h2>
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-sm bg-primary text-white p-2 rounded-circle"><i class="bi bi-graph-up"></i>
+                        </div>
+                        <div>
+                            <h5 class="fw-bold">كشوف حسابات العملاء</h5>
+                            <p class="text-muted">تتبع كامل للمدفوعات والمشتريات مع إمكانية تصدير PDF فورية.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3 mb-4">
+                        <div class="icon-sm bg-secondary text-white p-2 rounded-circle"><i
+                                class="bi bi-shield-lock"></i></div>
+                        <div>
+                            <h5 class="fw-bold">نظام صلاحيات متطور</h5>
+                            <p class="text-muted">تحديد صلاحيات دقيقة لكل موظف لضمان أمان البيانات والرقابة.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <div class="icon-sm bg-accent text-white p-2 rounded-circle"><i
+                                class="bi bi-file-earmark-excel"></i></div>
+                        <div>
+                            <h5 class="fw-bold">تصدير Excel/PDF</h5>
+                            <p class="text-muted">دعم كامل لتصدير التقارير بصيغ احترافية لسهولة الأرشفة والمراجعة.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white p-5 rounded-4 shadow-sm">
+                        <h4 class="fw-bold mb-4">تحديثات الإصدار الأخير</h4>
+                        <div class="alert alert-primary border-0 rounded-4 p-3 mb-3">
+                            <i class="bi bi-stars me-2"></i> ظهور اسم الكاشير في كل عملية بيع وإرجاع.
+                        </div>
+                        <div class="alert alert-secondary border-0 rounded-4 p-3 mb-3">
+                            <i class="bi bi-stars me-2"></i> نظام إرجاع أصناف ذكي يحدث المخزون فوراً.
+                        </div>
+                        <div class="alert alert-info border-0 rounded-4 p-3">
+                            <i class="bi bi-stars me-2"></i> دعم طباعة الكيو آر كود للامتثال الضريبي.
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section id="contact" class="py-5 bg-dark text-white text-center">
-        <div class="container py-5">
-            <h2 class="display-5 fw-bold mb-4 animate__animated animate__pulse animate__infinite">جاهز لتغيير شكل عملك؟</h2>
-            <p class="lead mb-5 opacity-75">انضم إلى الشركات التي تثق في نظامنا لإدارة مبيعاتها اليومية.</p>
-            <a href="https://wa.me/201019943147?text=أريد%20طلب%20النظام" class="btn btn-success btn-lg rounded-pill px-5 shadow-lg whatsapp-btn">
+    <section id="contact" class="py-5 bg-dark text-white text-center position-relative overflow-hidden">
+        <div class="container py-5 z-index-1">
+            <h2 class="display-4 fw-bold mb-4">جاهز للانطلاق بتجارتك؟</h2>
+            <p class="lead mb-5 opacity-75 fs-4">احصل على نسختك الآن وانضم لآلاف الشركات الناجحة.</p>
+            <a href="https://wa.me/201019943147?text=أريد%20طلب%20النظام"
+                class="btn btn-success btn-lg rounded-pill px-5 py-3 shadow-lg whatsapp-btn fs-5 fw-bold">
                 <i class="bi bi-whatsapp me-2"></i>
-                تواصل معنا فيديو/محادثة الآن
+                تواصل معنا عبر واتساب الآن
             </a>
             <div class="mt-4">
-                <p>أو اتصل بنا مباشرة: <span class="text-primary fw-bold">00201019943147</span></p>
+                <p class="fs-5">أو اتصل بنا مباشرة: <span class="text-primary fw-bold">00201019943147</span></p>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-4 border-top">
-        <div class="container text-center text-muted">
-            <p class="mb-0">جميع الحقوق محفوظة &copy; 2026 - نظام POS لإدارة نقاط البيع والمخزون</p>
+    <footer class="py-5 bg-light border-top">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    <p class="mb-0 text-muted">جميع الحقوق محفوظة &copy; 2024 - نظام POS الذكي الاحترافي</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-links d-flex justify-content-center justify-content-md-end gap-3 text-muted">
+                        <i class="bi bi-facebook fs-4 cursor-pointer"></i>
+                        <i class="bi bi-twitter-x fs-4 cursor-pointer"></i>
+                        <i class="bi bi-linkedin fs-4 cursor-pointer"></i>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 
-    <!-- Lightbox (Expanding Image Container) -->
-    <div id="lightbox" class="lightbox" onclick="this.style.display='none'">
-        <span class="close-btn">&times;</span>
-        <img id="lightbox-img" src="" alt="Zoomed Screenshot">
-        <div id="caption" class="text-white text-center mt-3 h4"></div>
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn" onclick="closeLightbox()">&times;</span>
+        <div class="d-flex flex-column align-items-center w-100 h-100 justify-content-center">
+            <img id="lightbox-img" src="" alt="Zoomed Screenshot">
+            <div id="caption" class="text-white mt-4 fw-bold fs-3"></div>
+        </div>
     </div>
+
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
-
-
